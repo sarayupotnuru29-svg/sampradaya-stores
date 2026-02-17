@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { ShoppingCart, Menu, X } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 import LanguageToggle from './LanguageToggle';
-import logo from '@/assets/logo.jpeg';
+import logo from '@/assets/apple-touch-icon.png';
 
 const Navbar = () => {
   const { t } = useTranslation();
