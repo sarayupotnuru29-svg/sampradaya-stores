@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
 import SlokaSection from '@/components/SlokaSection';
 import logo from '@/assets/logo.jpeg';
+import aboutStore from '@/assets/about-store.jpg';
+import aboutPuja from '@/assets/about-puja.jpg';
+import aboutBrass from '@/assets/about-brass.jpg';
 
 const About = () => {
   const { t } = useTranslation();
@@ -19,7 +22,40 @@ const About = () => {
         {t('about.title')}
       </motion.h1>
 
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-4xl mx-auto">
+        {/* Hero image gallery */}
+        <div className="grid gap-4 md:grid-cols-3 mb-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="rounded-xl overflow-hidden border-2 border-gold"
+          >
+            <img src={aboutStore} alt="Our Store" className="h-48 w-full object-cover" loading="lazy" />
+            <p className="text-center text-xs text-muted-foreground py-2 font-heading">{t('about.storeLabel')}</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="rounded-xl overflow-hidden border-2 border-gold"
+          >
+            <img src={aboutPuja} alt="Puja Items" className="h-48 w-full object-cover" loading="lazy" />
+            <p className="text-center text-xs text-muted-foreground py-2 font-heading">{t('about.pujaLabel')}</p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="rounded-xl overflow-hidden border-2 border-gold"
+          >
+            <img src={aboutBrass} alt="Brass Collection" className="h-48 w-full object-cover" loading="lazy" />
+            <p className="text-center text-xs text-muted-foreground py-2 font-heading">{t('about.brassLabel')}</p>
+          </motion.div>
+        </div>
+
         <div className="flex justify-center mb-8">
           <img src={logo} alt="Sampradaya Stores" className="h-28 w-28 rounded-full gold-border" />
         </div>
