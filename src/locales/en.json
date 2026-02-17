@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "auspicious": "Auspicious Days 2026",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "headline": "Traditional Puja Essentials for Every Auspicious Occasion",
+    "subheading": "All Types of Puja Items, Return Gifts & Brass Collection Available",
+    "viewProducts": "View Products",
+    "contactWhatsApp": "Contact on WhatsApp",
+    "sanskrit": "शुभं करोति कल्याणं आरोग्यं धनसंपदा",
+    "sanskritMeaning": "May there be auspiciousness, welfare, health and prosperity"
+  },
+  "features": {
+    "brass": "Premium Brass Collection",
+    "brassDesc": "Handcrafted traditional brass items for your puja room",
+    "puja": "Traditional Puja Samagri",
+    "pujaDesc": "Authentic materials for all Hindu rituals and ceremonies",
+    "gifts": "Marriage Return Gifts",
+    "giftsDesc": "Beautiful and meaningful gifts for wedding ceremonies",
+    "festival": "Festival Special Kits",
+    "festivalDesc": "Complete kits for Diwali, Navratri, and all festivals"
+  },
+  "products": {
+    "title": "Our Products",
+    "categories": "Categories",
+    "addToCart": "Add to Cart",
+    "all": "All Products",
+    "pujaSamagri": "Puja Samagri",
+    "brassItems": "Brass Items",
+    "returnGifts": "Return Gifts",
+    "templeAccessories": "Temple Accessories",
+    "festivalSpecial": "Festival Special Items"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "checkout": "Checkout via WhatsApp",
+    "remove": "Remove",
+    "items": "items"
+  },
+  "auspicious": {
+    "title": "Auspicious Days 2026",
+    "marriage": "Marriage Muhurthams 2026",
+    "gruha": "Gruha Pravesham Dates 2026",
+    "festivals": "Major Hindu Festival Dates 2026",
+    "quote": "May every auspicious day bring blessings to your home"
+  },
+  "about": {
+    "title": "About Sampradaya Stores",
+    "description": "We are a traditional spiritual store dedicated to preserving Indian culture and rituals.",
+    "provide": "We provide:",
+    "item1": "Authentic Puja Materials",
+    "item2": "High-quality Brass Items",
+    "item3": "Custom Return Gifts",
+    "item4": "Special Occasion Supplies",
+    "mission": "Mission",
+    "missionText": "To support every family in performing rituals with purity and devotion.",
+    "founder": "Founder's Message",
+    "founderText": "With deep roots in tradition and a passion for preserving our cultural heritage, Sampradaya Stores was founded to make authentic puja items accessible to every household. We believe that performing rituals with the right materials enhances the spiritual experience."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressText": "Sampradaya Stores, Opp South India Shopping Mall, Near New RTC Bus Stand, Kadapa",
+    "hours": "Business Hours",
+    "hoursText": "Mon–Sun: 9:00 AM – 9:30 PM",
+    "followUs": "Follow Us",
+    "sendMessage": "Send us a Message",
+    "name": "Your Name",
+    "message": "Your Message",
+    "send": "Send Message",
+    "instagram": "Follow on Instagram"
+  },
+  "quotes": {
+    "dharmo": "ధర్మో రక్షతి రక్షితః",
+    "sarve": "सर्वे भवन्तु सुखिनः",
+    "shubham": "శుభమస్తు"
+  },
+  "footer": {
+    "rights": "All Rights Reserved",
+    "tagline": "Preserving Tradition, Serving Devotion"
+  }
+}
