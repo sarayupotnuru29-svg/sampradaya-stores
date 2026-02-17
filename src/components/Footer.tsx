@@ -1,10 +1,16 @@
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Phone, Mail, MapPin } from 'lucide-react';
 import logo from '@/assets/logo.jpeg';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const handleLinkClick = (path: string) => {
+    navigate(path);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <footer className="border-t-2 border-gold bg-primary text-primary-foreground">
@@ -22,15 +28,15 @@ const Footer = () => {
             <p className="text-sm opacity-80">{t('footer.tagline')}</p>
           </div>
 
-          {/* Links */}
+          {/* Quick Links */}
           <div>
-            <h4 className="mb-4 font-heading text-base font-semibold">{t('nav.home')}</h4>
+            <h4 className="mb-4 font-heading text-base font-semibold">{t('footer.quickLinks')}</h4>
             <div className="flex flex-col gap-2">
-              <Link to="/" className="text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.home')}</Link>
-              <Link to="/products" className="text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.products')}</Link>
-              <Link to="/auspicious" className="text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.auspicious')}</Link>
-              <Link to="/about" className="text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.about')}</Link>
-              <Link to="/contact" className="text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.contact')}</Link>
+              <button onClick={() => handleLinkClick('/')} className="text-left text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.home')}</button>
+              <button onClick={() => handleLinkClick('/products')} className="text-left text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.products')}</button>
+              <button onClick={() => handleLinkClick('/auspicious')} className="text-left text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.auspicious')}</button>
+              <button onClick={() => handleLinkClick('/about')} className="text-left text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.about')}</button>
+              <button onClick={() => handleLinkClick('/contact')} className="text-left text-sm opacity-80 hover:opacity-100 transition-opacity">{t('nav.contact')}</button>
             </div>
           </div>
 

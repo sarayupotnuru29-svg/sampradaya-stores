@@ -75,6 +75,7 @@
     "name": "Your Name",
     "message": "Your Message",
     "send": "Send Message",
+    "product": "Select Product",
     "instagram": "Follow on Instagram"
   },
   "quotes": {
@@ -84,6 +85,23 @@
   },
   "footer": {
     "rights": "All Rights Reserved",
-    "tagline": "Preserving Tradition, Serving Devotion"
+    "tagline": "Preserving Tradition, Serving Devotion",
+    "quickLinks": "Quick Links"
+  },
+  "about": {
+    "title": "About Sampradaya Stores",
+    "description": "We are a traditional spiritual store dedicated to preserving Indian culture and rituals.",
+    "provide": "We provide:",
+    "item1": "Authentic Puja Materials",
+    "item2": "High-quality Brass Items",
+    "item3": "Custom Return Gifts",
+    "item4": "Special Occasion Supplies",
+    "mission": "Mission",
+    "missionText": "To support every family in performing rituals with purity and devotion.",
+    "founder": "Founder's Message",
+    "founderText": "With deep roots in tradition and a passion for preserving our cultural heritage, Sampradaya Stores was founded to make authentic puja items accessible to every household. We believe that performing rituals with the right materials enhances the spiritual experience.",
+    "storeLabel": "Our Store",
+    "pujaLabel": "Puja Essentials",
+    "brassLabel": "Brass Collection"
   }
 }
