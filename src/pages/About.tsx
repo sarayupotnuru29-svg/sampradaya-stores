@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
 import SlokaSection from '@/components/SlokaSection';
 import logo from '@/assets/logo.jpeg';
-import aboutStore from '@/assets/about-store.jpg';
+import aboutStore from '@/assets/mystore.jpeg';
 import aboutPuja from '@/assets/about-puja.jpg';
 import aboutBrass from '@/assets/about-brass.jpg';
 

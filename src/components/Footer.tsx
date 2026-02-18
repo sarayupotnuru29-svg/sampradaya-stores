@@ -201,7 +201,7 @@ import { useNavigate } from 'react-router-dom';
 import { Phone, Mail, MapPin, Heart } from 'lucide-react';
 import logo from '@/assets/logo.jpeg';
 // Import the artistic telugu image
-import teluguNameImg from '@/assets/telugu-name.jpeg';
+import teluguNameImg from '@/assets/telugur.jpeg';
 
 const Footer = () => {
   const { t } = useTranslation();
